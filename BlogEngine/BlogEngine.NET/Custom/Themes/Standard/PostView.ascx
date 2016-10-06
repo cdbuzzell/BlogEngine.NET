@@ -7,9 +7,9 @@
             <a href="<%=Post.RelativeOrAbsoluteLink %>"><%=Server.HtmlEncode(Post.Title) %></a>
         </h2>
         <div class="post-info clearfix">
-            <span class="post-date"><%=Post.DateCreated.ToString("dd MMMM yyyy") %></span>
-            <span class="post-author"><a href="<%=Utils.AbsoluteWebRoot + "author/" + Utils.RemoveIllegalCharacters(Post.Author + BlogConfig.FileExtension) %>"><%=Post.AuthorProfile != null ? Utils.RemoveIllegalCharacters(Post.AuthorProfile.DisplayName) : Utils.RemoveIllegalCharacters(Post.Author) %></a></span>
-            <span class="post-category"><%=CategoryLinks(", ") %></span>
+            <span class="post-date"><i class="fa fa-clock-o"></i> <%=Post.DateCreated.ToString("dd MMMM yyyy") %></span>
+            <span class="post-author"><i class="fa fa-user"></i> <a href="<%=Utils.AbsoluteWebRoot + "author/" + Utils.RemoveIllegalCharacters(Post.Author + BlogConfig.FileExtension) %>"><%=Post.AuthorProfile != null ? Utils.RemoveIllegalCharacters(Post.AuthorProfile.DisplayName) : Utils.RemoveIllegalCharacters(Post.Author) %></a></span>
+            <span class="post-category"><i class="fa fa-folder"></i> <%=CategoryLinks(", ") %></span>
         </div>
     </header>
     <section class="post-body text">

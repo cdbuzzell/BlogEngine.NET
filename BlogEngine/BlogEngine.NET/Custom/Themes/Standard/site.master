@@ -71,6 +71,7 @@
                         <nav class="blog-nav">
                             <ul>
                                 <li><a href="<%=Utils.AbsoluteWebRoot %>" class="item-home" title="<%=Resources.labels.home %>"><i class="fa fa-home"></i></a></li>
+                                <li><a href="<%=Utils.AbsoluteWebRoot %>page/about-me" class="item-about" title="<%=Resources.labels.aboutMe %>"><i class="fa fa-info"></i></a></li>
                                 <li><a href="<%=Utils.AbsoluteWebRoot %>archive" class="item-archive" title="<%=Resources.labels.archive %>"><i class="fa fa-align-left"></i></a></li>
                                 <li><a href="<%=Utils.AbsoluteWebRoot %>contact" class="item-contact" title="<%=Resources.labels.contact %>"><i class="fa fa-envelope"></i></a></li>
                                 <li><a runat="server" id="aLogin" class="item-login" title=""><span id="aLoginText" runat="server"></span></a></li>
