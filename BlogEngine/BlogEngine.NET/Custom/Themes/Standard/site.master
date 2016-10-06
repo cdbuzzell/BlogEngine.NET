@@ -34,7 +34,7 @@
     <script type="text/javascript" src="<%# Utils.ApplicationRelativeWebRoot %>scripts/syntaxhighlighter/scripts/shAutoloader.js"></script>
     <script type="text/javascript" src="<%# Utils.ApplicationRelativeWebRoot %>scripts/syntaxhighlighter/shActivator.js"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
-    <link rel="shortcut icon" href="~/Content/images/blog/blogengine.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Content/images/blog/favicon.ico" type="image/x-icon" />
     <style>
         body {
             background: [CUSTOMFIELD|THEME|Standard|background color left|#232526/];
@@ -64,7 +64,7 @@
                                 <li><a href="[CUSTOMFIELD|THEME|Standard|Linkedin Account|/]" rel="external nofollow"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="[CUSTOMFIELD|THEME|Standard|Instagramm Account|/]" rel="external nofollow"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="[CUSTOMFIELD|THEME|Standard|Youtube Account|/]" rel="external nofollow"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Github Account|/]" rel="external nofollow"><i class="fa fa-git"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard|Github Account|/]" rel="external nofollow"><i class="fa fa-github"></i></a></li>
                                 <li><a href="[CUSTOMFIELD|THEME|Standard|Pinterest Account|/]" rel="external nofollow"><i class="fa fa-pinterest"></i></a></li>
                             </ul>
                         </div>

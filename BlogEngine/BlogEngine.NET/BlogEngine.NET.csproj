@@ -21,7 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -147,6 +147,7 @@
     <Content Include="App_Data\posts\f39c3289-e861-48f7-a4b7-edaaffe6f6dc.xml" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\images\blog\favicon.ico" />
     <Content Include="Content\images\blog\icon-left.svg" />
     <Content Include="Content\images\blog\icon-pass.svg" />
     <Content Include="Content\images\blog\icon-user.svg" />
@@ -792,6 +793,7 @@
     <Content Include="Custom\Themes\Standard\src\fonts\fontawesome-webfont.woff" />
     <Content Include="Custom\Themes\Standard\src\fonts\fontawesome-webfont.woff2" />
     <Content Include="Custom\Themes\Standard\src\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\cbuzz blog - File Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
